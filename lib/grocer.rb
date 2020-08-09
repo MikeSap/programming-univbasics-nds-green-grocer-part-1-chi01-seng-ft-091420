@@ -18,6 +18,7 @@ def consolidate_cart(cart)
    if item{:item] != consolidated_cart[:item]
      consolidated_cart << item[:item]
    else
+    item[:count] = item[:count] + 1
    #item.each do |info, value|
  #binding.pry
     end
