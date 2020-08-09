@@ -15,12 +15,16 @@ end
 def consolidate_cart(cart)
  reciept = []
  total = 0
+ consolidated_cart = []
  cart.each do |item|
    total = item[:price] + total
    reciept << item[:item]
-   #item.each do |info, value|
+   item.each do |info, value|
+     if !item[:item] == reciept[i]
+       
+     end
  #binding.pry
-  #end
+  end
  end
 end
 
