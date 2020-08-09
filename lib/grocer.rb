@@ -16,7 +16,7 @@ def consolidate_cart(cart)
  reciept = []
  total = {}
  
- binding.pry
+# binding.pry
 end
 
 
