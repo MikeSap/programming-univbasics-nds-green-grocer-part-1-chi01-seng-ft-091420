@@ -1,12 +1,12 @@
 require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
- shopping = {}
+ shopping = []
  collection.each do |key|
   key.each do |prop, food|
        # binding.pry
      if food == name
-     shopping << #{food}
+     shopping << food
      end
   end
  end
