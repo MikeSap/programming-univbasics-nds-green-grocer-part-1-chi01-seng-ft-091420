@@ -15,7 +15,8 @@ end
 def consolidate_cart(cart)
  reciept = []
  total = {}
- cart.each do |item|
+ cart.each do |item
+ |
    item.each do |info, value|
  binding.pry
   end
