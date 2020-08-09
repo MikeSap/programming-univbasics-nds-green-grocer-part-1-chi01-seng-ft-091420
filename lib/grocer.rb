@@ -20,7 +20,7 @@ def consolidate_cart(cart)
    reciept << item
    #item.each do |info, value|
  binding.pry
-  end
+  #end
  end
 end
 
