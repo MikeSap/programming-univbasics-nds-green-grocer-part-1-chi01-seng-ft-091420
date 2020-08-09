@@ -6,7 +6,7 @@ def find_item_by_name_in_collection(name, collection)
   key.each do |prop, food|
        # binding.pry
      if food == name
-     shopping = food + shopping
+     shopping << #{food}
      end
   end
  end
