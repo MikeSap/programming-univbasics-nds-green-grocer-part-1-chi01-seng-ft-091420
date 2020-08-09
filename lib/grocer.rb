@@ -3,14 +3,13 @@ require 'pry'
 def find_item_by_name_in_collection(name, collection)
  shopping = {}
  collection.each do |key|
-   binding.pry
-   key.each do |prop, food|
-     
-    # if item == name
-    # shopping << name
-    # end
+  key.each do |prop, food|
+        binding.pry
+     if food == name
+     shopping << key
+     end
    
- # end
+  end
  end
 end
 
