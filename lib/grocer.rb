@@ -4,10 +4,11 @@ def find_item_by_name_in_collection(name, collection)
  shopping = {}
  collection.each do |key|
    item.each do |prop, item|
+     binding.pry
      if item == name
      shopping << name
      end
-   binding.pry
+   
   end
  end
 end
