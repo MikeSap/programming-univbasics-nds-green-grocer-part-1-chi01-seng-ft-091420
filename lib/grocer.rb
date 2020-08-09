@@ -19,6 +19,7 @@ def consolidate_cart(cart)
      item[:count] = 1
    else
      item[:count] = item[:count] + 1
+   end
  end
 end
 
