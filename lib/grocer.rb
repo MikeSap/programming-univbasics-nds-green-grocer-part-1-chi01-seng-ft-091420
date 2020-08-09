@@ -7,7 +7,7 @@ def find_item_by_name_in_collection(name, collection)
        # binding.pry
      if food == name
      shopping << key
-     #binding.pry
+     binding.pry
      end
   end
  end
