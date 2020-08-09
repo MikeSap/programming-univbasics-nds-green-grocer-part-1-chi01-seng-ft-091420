@@ -15,7 +15,7 @@ end
 def consolidate_cart(cart)
  consolidated_cart = []
  cart.each do |item|
-   if find_item_by_name_in_collection (item[:item], collection) == nil
+   if find_item_by_name_in_collection (name, collection) == nil
      item[:count] = 1
    else
      item[:count] = item[:count] + 1
