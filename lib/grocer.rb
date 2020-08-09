@@ -20,6 +20,5 @@ def consolidate_cart(cart)
      else
      food[:count] = food[:count] + 1
    end
- endlearn
- 
+ end
 end
