@@ -1,9 +1,12 @@
 require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
- 
- collection.each do |item|
-   item.each do |property, val|
+ shopping = {}
+ collection.each do |key|
+   item.each do |prop, item|
+     if item == name
+     shopping << name
+     end
    binding.pry
   end
  end
