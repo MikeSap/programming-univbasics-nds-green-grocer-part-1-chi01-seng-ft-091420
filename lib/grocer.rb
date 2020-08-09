@@ -5,9 +5,9 @@ def find_item_by_name_in_collection(name, collection)
  collection.each do |key|
    item.each do |prop, item|
      binding.pry
-     if item == name
-     shopping << name
-     end
+    # if item == name
+    # shopping << name
+    # end
    
   end
  end
