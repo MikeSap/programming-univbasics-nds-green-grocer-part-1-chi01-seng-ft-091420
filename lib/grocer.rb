@@ -15,6 +15,7 @@ end
 def consolidate_cart(cart)
  consolidated_cart = []
  cart.each do |item|
+   
    if item{:item] != consolidated_cart[:item]
      binding.pry
      consolidated_cart << item[:item]
