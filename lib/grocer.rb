@@ -8,7 +8,7 @@ def find_item_by_name_in_collection(name, collection)
      shopping << key
     else
      shopping = nil
-     #binding.pry
+    binding.pry
      end
   end
  end
