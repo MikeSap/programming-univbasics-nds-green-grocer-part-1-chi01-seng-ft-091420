@@ -15,14 +15,10 @@ end
 def consolidate_cart(cart)
  consolidated_cart = []
  cart.each do |item|
-   
-   if item{:item] != consolidated_cart[:item]
+   if item != find_item_by_name_in_collection
      binding.pry
-     consolidated_cart << item[:item]
    else
-    item[:count] = item[:count] + 1
-   #item.each do |info, value|
- #binding.pry
+     
    end
  end
 end
