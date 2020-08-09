@@ -19,7 +19,7 @@ def consolidate_cart(cart)
      food[:count] = 1
      else
      food[:count] = food[:count] + 1
-     binding.pry
    end
- end
+ endlearn
+ 
 end
