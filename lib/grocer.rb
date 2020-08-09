@@ -1,7 +1,7 @@
 require 'pry'
 
 def find_item_by_name_in_collection(name, collection)
- name.each do |item, att|
+ name.each do |item|
    binding.pry
  
  end
